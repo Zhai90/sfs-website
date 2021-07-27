@@ -182,3 +182,8 @@ h2 {
 .dipped {
   transform: translateY(5px);
 }
+.typeform-share button{
+min-height: 100vh;
+ display: Start!;
+   flex-direction: column;
+}
