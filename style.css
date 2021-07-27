@@ -16,14 +16,14 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #69F7BE;
+  --color-bg: #d3d3d3;
   --color-text-main: #000000;
-  --color-primary: #FFFF00;
+  --color-primary: #d3d3d3;
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
+  --font-family: "Georgia";
+  --font-family-header: "Georgia";
 }
 
 /* Basic page style resets */
@@ -111,7 +111,7 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  font-family: HK Grotesk;
+  font-family: Georgia;
   background-color: var(--color-bg);
 }
 
