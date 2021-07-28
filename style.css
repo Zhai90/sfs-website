@@ -8,7 +8,7 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
 
-.typeform-share button + div {
+.typeform-share button {
    position: absolute;
   left: 100px;
   top: 300px;
