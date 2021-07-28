@@ -7,11 +7,8 @@ you're new to CSS they may seem a little complicated, but you can scroll down
 to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
-
 .typeform-share button {
-   position: absolute;
+  position: absolute;
   left: 100px;
   top: 300px;
 }
-
-
