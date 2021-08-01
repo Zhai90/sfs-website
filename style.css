@@ -12,13 +12,13 @@ p {
   text-align: center;
 }
 
-h5 {
+h4 {
   text-align: center;
-  color: lightgray;
+  color: gray;
 }
 
 h6 {
   text-align: center;
-  color: lightgray;
+  color: gray;
+  line-height: 1px;
 }
-
