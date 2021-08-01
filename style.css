@@ -7,8 +7,18 @@ you're new to CSS they may seem a little complicated, but you can scroll down
 to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
-.typeform-share .button {
-  position: absolute;
-  left: 100px;
-  top: 300px;
+p {
+  font-family: Sans-Serif;
+  text-align: center;
 }
+
+h5 {
+  text-align: center;
+  color: lightgray;
+}
+
+h6 {
+  text-align: center;
+  color: lightgray;
+}
+
