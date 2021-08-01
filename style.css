@@ -10,15 +10,16 @@ to this section's matching END comment to see page-specific styles.
 p {
   font-family: Sans-Serif;
   text-align: center;
+  color: white;
 }
 
 h4 {
   text-align: center;
-  color: gray;
+  color: lightgray;
 }
 
 h6 {
   text-align: center;
-  color: gray;
+  color: lightgray;
   line-height: 1px;
 }
