@@ -8,7 +8,7 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
 p {
-  font-family: Sans-Serif;
+  font-family: verdana;
   text-align: center;
   color: white;
 }
@@ -16,10 +16,12 @@ p {
 h4 {
   text-align: center;
   color: lightgray;
+  font-family: tahoma;
 }
 
 h6 {
   text-align: center;
   color: lightgray;
   line-height: 1px;
+  font-family: helvatica;
 }
