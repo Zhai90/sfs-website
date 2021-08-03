@@ -7,6 +7,11 @@ you're new to CSS they may seem a little complicated, but you can scroll down
 to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
+body {
+ opacity: 0.8;  
+  
+}
+
 p {
   font-family: verdana;
   text-align: center;
