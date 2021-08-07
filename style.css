@@ -12,6 +12,12 @@ body {
   
 }
 
+header {
+  font-family: verdana;
+  text-align: center;
+  color: white;
+}
+
 p {
   font-family: verdana;
   text-align: center;
