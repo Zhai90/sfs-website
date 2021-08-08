@@ -2,3 +2,17 @@ h1 {
   text-align: center;
   color: gray;
 }
+
+body {
+  text-align: center;
+  color: gray;
+}
+
+h3 {
+  color: white;
+}
+
+footer {
+  color: lightgray;
+  font-size: 8px;
+}
