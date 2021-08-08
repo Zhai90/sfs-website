@@ -54,3 +54,7 @@ span {
 #goback {
   text-align: left;
 }
+
+button {
+  border-radius: 5px;
+}
