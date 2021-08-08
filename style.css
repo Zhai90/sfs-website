@@ -41,5 +41,12 @@ div {
   text-align: center;
   color: white;
   font-weight: bold;
+}
+
+span {
+  text-align: center;
+  color: white;
+  font-weight: bold;
   border-style: outset;
+  border-radius: 40px;
 }
