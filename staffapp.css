@@ -51,10 +51,16 @@ span {
   border-radius: 40px;
 }
 
-#goback {
-  text-align: left;
+.go-back {
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.goback {
-  border-radius: 5px;
+.go-back:hover, .go-back:active {
+  background-color: lightblue;
+}
+
+*:link, *:visited {
+  text-decoration: none;
 }
