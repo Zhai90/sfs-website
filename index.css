@@ -22,10 +22,12 @@ footer {
   border-radius: 5px;
 }
 
-.staffbutton:hover, .staffbutton:active {
+.staffbutton:hover,
+.staffbutton:active {
   background-color: lightblue;
 }
 
-*:link, *:visited {
+*:link,
+*:visited {
   text-decoration: none;
 }

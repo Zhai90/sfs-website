@@ -8,8 +8,7 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 
 body {
- opacity: 0.8;  
-  
+  opacity: 0.8;
 }
 
 header {
@@ -57,10 +56,12 @@ span {
   text-align: center;
 }
 
-.go-back:hover, .go-back:active {
+.go-back:hover,
+.go-back:active {
   background-color: lightblue;
 }
 
-*:link, *:visited {
+*:link,
+*:visited {
   text-decoration: none;
 }
