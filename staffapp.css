@@ -54,6 +54,9 @@ span {
   padding: 3px;
   border-radius: 5px;
   text-align: center;
+  float: left;
+  margin-left: 150px;
+  position: absolute;
 }
 
 .go-back:hover,
