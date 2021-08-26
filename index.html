@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" />
 <head>
-  <link
-    rel="stylesheet"
-    href="./index.css"
+  <!-- Favicons -->
     <link
     rel="shortcut icon"
     href="https://cdn.glitch.com/1cdacc01-3174-49f7-a4b2-e1f0e584fc8d%2Ffavicon.ico?v=1627482988457"
@@ -77,56 +75,42 @@
     sizes="16x16"
     href="https://cdn.glitch.com/1cdacc01-3174-49f7-a4b2-e1f0e584fc8d%2Ffavicon-16x16.png?v=1627482998282"
   />
-  <link rel="manifest" href="/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-
+  <!-- Import Libraries and CSS -->
+  <link rel="stylesheet" href="./css/index.css">
+  <!-- Meta tags -->
+  <meta content="Silent's Free Services" property="og:site_name" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#00008B" />
+  <meta name="twitter:site" content="Zhai_#9998" />
+  <meta charset="utf-8">
+  <meta viewport="width=device" content="width=device-width, initial-scale=1.0">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+  <!-- Title-->
   <title>Home | SFS Website</title>
-  <h1>
-    Welcome to the Silent's Free Services Website!
-  </h1>
 </head>
-<body
-  background="https://cdn.discordapp.com/attachments/611356749433274374/871469603333750814/NHrrca5ghygAAAABJRU5ErkJggg.png"
->
-  <h3>
-    This website is currently under construction!
-  </h3>
+<body> 
+  <section id="mainsection"> 
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
+          <h1 id="maintext">SFS</h1>
+        </div>
+      </div>
+    </div>
 
-  <h3>
-    <button class="staffbutton">
-      <a href="https://sfs-website.glitch.me/staffapp.html"
-        >Click here to apply for staff!</a
-      >
-    </button>
-  </h3>
-</body>
-<meta content="Silent's Free Services" property="og:title" />
-
-<meta property="og:type" content="website" />
-
-<meta
-  property="og:image"
-  content="https://cdn.discordapp.com/attachments/850405837716586506/850408307260915782/SIlents.png"
-/>
-
-<meta
-  content="We offer free dungeon carries and other services!"
-  property="og:description"
-/>
-
-<meta content="Hypixel Skyblock's" property="og:site_name" />
-
-<meta name="twitter:card" content="summary_large_image" />
-
-<meta name="theme-color" content="#00008B" />
-
-<meta name="twitter:site" content="Zhai_#9998" />
-<hr />
-<footer>
-  <p class="made">Made by <code>Zhai_#9998</code></p>
-  <p>
-    SFS &copy 2021
-  </p>
-</footer>
+    <a href="./about.html" class="text-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><button id="about"><i class="fas fa-info-circle"></i> About</button></a>
+    <a href="./staffapp.html" class="text-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><button id="app"><i class="fas fa-poll-h"></i> Staff <span class="hidden-media">App</span></button></a>
+    <a href="https://www.discord.gg/sfs" target="_blank" class="text-center" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><button id="discord"><i class="fab fa-discord"></i> Discord</button></a>
+    <br>
+  </section>
+<!-- Import VANILLA-TILT.JS -->
+<script src="bootstrap/vanilla-tilt.min.js"></script>
+</body> 
+ <!-- Bootstrap, Popper, Fontawesome && JQuery -->
+ <script src="bootstrap/bootstrap.bundle.min.js"></script>
+ <script src="bootstrap/bootstrap.bundle.min.js"></script>
+ <script src="https://kit.fontawesome.com/8acfd339ec.js" crossorigin="anonymous"></script>
+</html>

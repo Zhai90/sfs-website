@@ -1,0 +1,116 @@
+/*** Essential Crap ***/
+
+* {
+    font-family:'Yanone Kaffeesatz', Arial, Verdana, sans-serif;
+    overflow: hidden;
+    box-sizing: border-box;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    letter-spacing: 5px;
+    transition: all 0.5s;
+}
+
+*:link, *:visited {
+    text-decoration: none;
+}
+
+/** Base Styles **/
+
+#mainsection {
+    text-align: center;
+    display: block;
+    margin: 20px;
+    height: 100%;
+    border: 0.5px solid black;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 10px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    position: relative;
+    z-index: 1;
+} 
+
+#maintext {
+    text-align: center;
+    display: block;
+    height: 40vw;
+    font-size: 4em!important;
+    color: magenta;
+    font-weight: bold;
+    text-shadow: 1px 1px 16px;
+    letter-spacing: 5px;
+    z-index: 2;
+ }
+
+ #abouttext {
+   position: absolute;
+   padding: 10px;
+   color: white;
+   font-size: 20px;
+   top: 50%;
+   margin-top: -200px;
+   height: 400px;
+ }
+
+ body {
+     background-repeat: repeat;
+     background-attachment: fixed;
+     background-image: url(https://cdn.glitch.com/1cdacc01-3174-49f7-a4b2-e1f0e584fc8d%2F5566450.jpg?v=1629853731289);
+ }
+ 
+ #goback {
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    top: 2.5vw;
+    left: 3vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    z-index: 3;
+ }
+
+ #goback:hover, #goback:active {
+     color:bisque;
+ }
+ 
+ /** Media Compatibility **/
+
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+    #mainsection {
+       height: 100vw;
+    }
+ }
+ 
+ /* Small devices (landscape phones, less than 768px) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    #mainsection {
+       height: 90vw;
+    }
+ }
+ 
+ /* Medium devices (tablets, less than 992px) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+   #mainsection {
+      height: 65vw;
+   }
+   .hidden-media {
+      display: none;
+   }
+ }
+ 
+ /* Large devices (desktops, less than 1200px) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+   #mainsection {
+      height: 55vw;
+   }
+ }
+ 
+ /* X-Large devices (large desktops, less than 1400px) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+ 
+ }
+ 
