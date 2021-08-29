@@ -96,6 +96,20 @@
    /* Whatever width you want */
  }
 
+ /** Terms and Conditions **/
+
+ #tnc {
+   color: dodgerblue;
+   position: relative; 
+   text-shadow: 1px 1px 4px whitesmoke;
+   z-index: 4;
+ }
+
+ #tnc:hover, #tnc:active {
+    color: darkcyan;
+    text-shadow: 1px 1px 16px lightgray;
+ }
+
 
  /** Discord Button **/
   
